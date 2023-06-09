@@ -41,6 +41,11 @@ resource "aws_route_table" "rtb-terraform" {
   }
 }
 
+resource "aws_route_table_association" "rta" {
+  subnet_id      = aws_subnet.subnet-terraform.id
+  route_table_id = aws_route_table.rtb-terraform.id
+}
+
 resource "aws_security_group" "sg-terraform" {
 
   vpc_id = aws_vpc.vpc-terraform.id
