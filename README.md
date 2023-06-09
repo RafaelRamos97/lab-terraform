@@ -1,12 +1,15 @@
-# lab-terraform
-Projeto inicial para ir de aprendiz a um mestre Jedi em terraform
+Projeto Lab-Terraform
 
-Este projeto será meu start neste mundo de IaC. Espero em um futuro não distante esta trabalhando e implementando essa cultura do Devops.
+E aí, galera! Estou super empolgado com esse projeto maneiro que vai me levar de aprendiz a mestre Jedi em Terraform!
 
-Iniciarei fazendo implementações simples com o terraform, tentado seguir um padrão de versionamento e futuramento escalando este projeto com outras tecnologias para melhorar cada vez mais.
+Esse projeto é o meu ponto de partida nesse universo do IaC (Infraestrutura como Código). Tô focado em mergulhar nessa cultura incrível chamada DevOps.
 
-Desde já, agradeço.
+Vou começar fazendo umas implementações simples com o Terraform, seguindo um esquema de versionamento e, no futuro, vou expandir esse projeto com outras tecnologias para melhorar cada vez mais.
 
-Att,
+Aceito de braços abertos sugestões e dicas, e tô aqui pra ajudar no que precisarem. Acredito que o mundo é gigante demais pra gente ficar guardando ideias que possam nos ajudar no dia a dia, né?
 
-Rafael Santana.
+Desde já, valeu pela parceria!
+
+Abraços,
+
+Rafael Santana
