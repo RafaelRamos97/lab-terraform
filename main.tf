@@ -6,6 +6,13 @@ terraform {
     }
   }
 
+  backend "s3" {
+    bucket = "tscm-rafael"
+    key    = "aws-terraform/env/dev/terraform.tfstate"
+    region = "us-east-1"
+
+  } 
+
 }
 
 provider "aws" {
