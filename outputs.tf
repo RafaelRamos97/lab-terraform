@@ -6,3 +6,11 @@ output "vm_ip_publico" {
   value = aws_instance.vm-terraform.public_ip
 }
 
+output "vm_ip_publico-2" {
+  value = aws_instance.vm-terraform-2.public_ip
+}
+
+
+output "dns_load_balance" {
+  value = aws_lb.load_terraform.dns_name
+}
