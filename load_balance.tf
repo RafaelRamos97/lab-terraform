@@ -15,13 +15,13 @@ resource "aws_lb_target_group" "target_group" {
 
 resource "aws_lb_target_group_attachment" "attachment1" {
   target_group_arn = aws_lb_target_group.target_group.arn
-  target_id        = aws_instance.vm-terraform.id
+  target_id        = aws_instance.vm-terraform-[0].id
   port             = 80
 }
 
 resource "aws_lb_target_group_attachment" "attachment2" {
   target_group_arn = aws_lb_target_group.target_group.arn
-  target_id        = aws_instance.vm-terraform-2.id
+  target_id        = aws_instance.vm-terraform-[1].id
   port             = 80
 }
 
